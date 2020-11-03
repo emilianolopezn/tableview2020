@@ -13,6 +13,8 @@
 		933E4A232551F29C001D138D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 933E4A212551F29C001D138D /* Main.storyboard */; };
 		933E4A252551F29F001D138D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 933E4A242551F29F001D138D /* Assets.xcassets */; };
 		933E4A282551F29F001D138D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 933E4A262551F29F001D138D /* LaunchScreen.storyboard */; };
+		933E4A352551F88E001D138D /* Alumno.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933E4A342551F88E001D138D /* Alumno.swift */; };
+		933E4A37255204F2001D138D /* CeldaAlumnoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 933E4A36255204F2001D138D /* CeldaAlumnoController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		933E4A242551F29F001D138D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		933E4A272551F29F001D138D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		933E4A292551F29F001D138D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		933E4A342551F88E001D138D /* Alumno.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alumno.swift; sourceTree = "<group>"; };
+		933E4A36255204F2001D138D /* CeldaAlumnoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CeldaAlumnoController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +60,41 @@
 		933E4A1A2551F29B001D138D /* practicatableview */ = {
 			isa = PBXGroup;
 			children = (
+				933E4A312551F813001D138D /* Models */,
+				933E4A302551F7E0001D138D /* Controllers */,
+				933E4A2F2551F762001D138D /* Storyboards */,
 				933E4A1B2551F29C001D138D /* AppDelegate.swift */,
 				933E4A1D2551F29C001D138D /* SceneDelegate.swift */,
-				933E4A1F2551F29C001D138D /* ViewController.swift */,
-				933E4A212551F29C001D138D /* Main.storyboard */,
 				933E4A242551F29F001D138D /* Assets.xcassets */,
-				933E4A262551F29F001D138D /* LaunchScreen.storyboard */,
 				933E4A292551F29F001D138D /* Info.plist */,
 			);
 			path = practicatableview;
+			sourceTree = "<group>";
+		};
+		933E4A2F2551F762001D138D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				933E4A262551F29F001D138D /* LaunchScreen.storyboard */,
+				933E4A212551F29C001D138D /* Main.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		933E4A302551F7E0001D138D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				933E4A1F2551F29C001D138D /* ViewController.swift */,
+				933E4A36255204F2001D138D /* CeldaAlumnoController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		933E4A312551F813001D138D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				933E4A342551F88E001D138D /* Alumno.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,6 +171,8 @@
 				933E4A202551F29C001D138D /* ViewController.swift in Sources */,
 				933E4A1C2551F29C001D138D /* AppDelegate.swift in Sources */,
 				933E4A1E2551F29C001D138D /* SceneDelegate.swift in Sources */,
+				933E4A352551F88E001D138D /* Alumno.swift in Sources */,
+				933E4A37255204F2001D138D /* CeldaAlumnoController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
